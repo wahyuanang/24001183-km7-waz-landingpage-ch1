@@ -4,3 +4,54 @@
     padding: 24px;
     gap: 16px;
   }
+
+#carouselExampleRide {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F1F3FF;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 1rem; 
+    padding: 0.5rem;
+}
+
+.testimonial-content {
+    text-align: start;
+    max-width: 420px; 
+}
+
+.carousel-item {
+    padding: 5rem;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.banner {
+    background-color:#0D28A6;
+    border-radius: 15px;
+}
+
+.btn-color {
+    background-color: #5CB85F;
+    color: white; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-color:hover {
+    background-color: white;
+    color: black !important; 
+}
+
+.paragraph {
+    max-width: 600px;
+    margin: 0 auto;
+}
