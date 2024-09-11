@@ -35,12 +35,11 @@ html {
 #carouselExampleRide {
     width: 80%;
     margin: 0 auto;
-    background-color: #F1F3FF;
 }
 
 .testimonial-img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 100px;
     margin-right: 1rem; 
     padding: 0.5rem;
 }
@@ -57,9 +56,6 @@ html {
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px;
     width: 50px;
-    outline: 2px solid black;
-    background-color: black;
-    border-radius: 50%;
 }
 
 .banner {
@@ -83,3 +79,14 @@ html {
     max-width: 600px;
     margin: 0 auto;
 }
+
+/* @media (max-width: 375px) {
+    .testimonial-img {
+        width: 90px;
+        height: 100px;
+    }
+    .testimonial-content img {
+         width: 90px;
+        height: 100px;
+    }
+} */
