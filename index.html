@@ -12,9 +12,45 @@
 
 <body>
     <!-- navbar start -->
-    <nav>
-
+    <nav class="navbar navbar-expand-lg container pt-4">
+        <div class="container-fluid">
+            <div>
+                <img src="./assets/Rectangle.svg" alt="">
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="openSidebar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-flex gap-4 fw-medium d-none d-lg-flex">
+                        <a class="nav-link text-black" href="#OurServices">Our Services</a>
+                        <a class="nav-link text-black" href="#WhyUs">Why Us</a>
+                        <a class="nav-link text-black" href="#Testimonial">Testimonial</a>
+                        <a class="nav-link text-black" href="#Faq">FAQ</a>
+                        <button type="button" class="btn btn-color border-2 p-2 px-3 rounded-2 fw-semibold">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </nav>
+
+     <!-- Sidebar -->
+     <div class="sidebar bg-light" id="sidebar">
+        <div class="d-flex justify-content-between p-3">
+            <span class="fw-bold pt-2 fs-5">BCR</span>
+            <button class="btn btn-light" id="closeSidebar"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path fill="#000000" d="m289.94 256l95-95A24 24 0 0 0 351 127l-95 95l-95-95a24 24 0 0 0-34 34l95 95l-95 95a24 24 0 1 0 34 34l95-95l95 95a24 24 0 0 0 34-34Z"/></svg></button>
+        </div>
+        <div class="d-flex flex-column p-3">
+            <a class="nav-link text-dark mb-2" href="#OurServices">Our Services</a>
+            <a class="nav-link text-dark mb-2" href="#WhyUs">Why Us</a>
+            <a class="nav-link text-dark mb-2" href="#Testimonial">Testimonial</a>
+            <a class="nav-link text-dark mb-2" href="#Faq">FAQ</a>
+        </div>
+        <div class="px-3">
+            <button type="button" class="btn btn-color border-2 p-2 rounded-2 fw-semibold">Mulai
+                Sewa Mobil</button>
+        </div>
+    </div>
 
     <!-- Hero section start -->
     <section class="container py-md-5 py-5">
@@ -33,7 +69,7 @@
     </section>
 
     <!-- Our Services start -->
-    <section class="container py-md-5">
+    <section id="OurServices" class="container py-md-5">
         <div class="row">
             <div class="col-12 col-md-6 order-1 order-md-1 mt-4 mt-md-0">
                 <img src="./assets/img_service.png" class="img-fluid w-75" alt="img our service">
@@ -69,7 +105,7 @@
     </section>
 
     <!-- why us start -->
-    <section class="container py-5">
+    <section id="WhyUs" class="container py-5">
         <div class="text-center text-md-start mb-4">
             <h3 class="fw-bold">Why Us?</h3>
             <p>Mengapa harus pilih Binar Car Rental?</p>
@@ -107,7 +143,7 @@
     </section>
 
     <!-- testimonial start -->
-    <!-- <section class="container py-5">
+    <section id="Testimonial" class="container py-5">
         <div class="text-center mb-4">
             <h3>Testimonial</h3>
             <p>Berbagai review positif dari para pelanggan kami</p>
@@ -150,7 +186,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </section> -->
+    </section>
 
     <!-- CTA Banner start -->
     <section class="container py-5">
@@ -168,7 +204,7 @@
     </section>
 
     <!-- FAQ start -->
-    <section class="container py-5">
+    <section id="Faq" class="container py-5">
         <div class="d-flex row">
             <div class="col-12 col-md-6 order-1 order-md-1 text-center text-md-start">
                 <h3 class="fw-bold">Frequently Asked Question</h3>
@@ -273,10 +309,10 @@
             </div>
             <div class="col-12 col-md-2 mb-4">
                 <div class="navigasi">
-                    <a href="#" class="text-decoration-none d-block mb-2">Our Services</a>
-                    <a href="#" class="text-decoration-none d-block mb-2">Why Us</a>
-                    <a href="#" class="text-decoration-none d-block mb-2">Testimonial</a>
-                    <a href="#" class="text-decoration-none d-block">FAQ</a>
+                    <a href="#OurServices" class="text-decoration-none d-block mb-2">Our Services</a>
+                    <a href="#WhyUs" class="text-decoration-none d-block mb-2">Why Us</a>
+                    <a href="#Testimonial" class="text-decoration-none d-block mb-2">Testimonial</a>
+                    <a href="#Faq" class="text-decoration-none d-block">FAQ</a>
                 </div>
             </div>
             <div class="col-12 col-md-4 mb-4">
@@ -290,13 +326,13 @@
                 </div>
             </div>
             <div class="col-12 col-md-3 mb-4">
-                <a href="#" class="text-decoration-none text-black d-block mb-3">Copyright Binar 2022</a>
+                <a href="#" class="text-decoration-none text-black d-block mb-3">Copyright Binar 2024</a>
                 <img src="./assets/Rectangle.svg" alt="">
             </div>
         </div>
     </footer>
 
-
+<script src="./javascript/index.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
