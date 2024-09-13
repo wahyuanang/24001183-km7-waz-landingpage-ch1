@@ -41,6 +41,7 @@ html {
 #carouselExampleRide {
   width: 80%;
   margin: 0 auto;
+  background-color:#F1F3FF;
 }
 
 .testimonial-img {
@@ -57,12 +58,6 @@ html {
 
 .carousel-item {
   padding: 5rem;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
 }
 
 .banner {
