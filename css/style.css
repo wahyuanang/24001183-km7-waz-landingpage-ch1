@@ -106,7 +106,7 @@ html {
   }
 }
 
-/* tablet view */
+/* tablet view*/
 @media (min-width: 768px) {
   #carouselExampleRide {
     width: 600px;
