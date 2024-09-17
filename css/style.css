@@ -32,32 +32,11 @@ html {
   padding: 24px;
   gap: 16px;
   transition: transform 0.3s ease-in-out;
+  cursor: default;
 }
 
 .card-content:hover {
-    transform: scale(1.1);
-  }
-
-#carouselExampleRide {
-  width: 80%;
-  margin: 0 auto;
-  background-color:#F1F3FF;
-}
-
-.testimonial-img {
-  width: 90px;
-  height: 100px;
-  margin-right: 1rem;
-  padding: 0.5rem;
-}
-
-.testimonial-content {
-  text-align: start;
-  max-width: 420px;
-}
-
-.carousel-item {
-  padding: 5rem;
+  transform: scale(1.1);
 }
 
 .banner {
@@ -89,6 +68,125 @@ html {
   text-decoration: none;
 }
 .navigasi a:hover {
-   color: #5cb85f;
+  color: #5cb85f;
+}
+
+/* mobile view  */
+@media (max-width: 1024px) {
+  #carouselExampleRide {
+    margin: 0 auto;
+    background-color: #f1f3ff;
   }
-  
+  #carouselExampleRide button {
+    border: none;
+    top: 15%;
+    background-color: transparent;
+  }
+
+  .carousel-item {
+    padding: 4rem;
+    flex-direction: column;
+  }
+
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-content {
+    text-align: start;
+  }
+
+  .testimonial-content img {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+  }
+}
+
+/* tablet view */
+@media (min-width: 768px) {
+  #carouselExampleRide {
+    width: 600px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-color: #f1f3ff;
+  }
+  #carouselExampleRide button {
+    border: none;
+    top: 40%;
+    background-color: transparent;
+  }
+  .carousel-content {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .carousel-item {
+    padding: 1rem;
+  }
+
+  .testimonial-content {
+    text-align: left;
+    max-width: 420px;
+  }
+
+  .testimonial-img {
+    width: 90px;
+    height: 100px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  .testimonial-content img {
+    margin: 0;
+    display: block;
+    width: 100px;
+  }
+}
+
+/* desktop view */
+@media (min-width: 1024px) {
+  #carouselExampleRide {
+    width: 832px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    background-color: #f1f3ff;
+  }
+  #carouselExampleRide button {
+    border: none;
+    top: 40%;
+    background-color: transparent;
+  }
+  .carousel-content {
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .carousel-item {
+    padding: 2rem;
+  }
+
+  .testimonial-content {
+    text-align: left;
+    max-width: 420px;
+  }
+
+  .testimonial-img {
+    width: 90px;
+    height: 100px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  .testimonial-content img {
+    margin: 0;
+    display: block;
+    width: 100px;
+  }
+}
