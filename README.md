@@ -6,9 +6,7 @@
 
 ## 🚀 About the Project
 
-This project is part of the **FSW-2 (Fullstack Web Development) Bootcamp Challenge**. It demonstrates the basics of web development using **HTML**, **CSS**, and **Bootstrap**.
-
-The goal is to create a responsive and visually appealing webpage that includes modern layout techniques, interactive elements, and clean design principles.
+Project Description This challenge is part of **Chapter 1** of Binar Academy to create a **Landing Page** based on the design provided by Binar Academy. This landing page serves as a front page that attracts visitors with a responsive design, clean layout, and modern UI elements.
 
 ## 🛠️ Technologies Used
 
@@ -16,35 +14,8 @@ The goal is to create a responsive and visually appealing webpage that includes 
 - **CSS3** - Styling the webpage for layout and design
 - **Bootstrap 5** - CSS framework for responsive design
 
-## 🎨 Features
-
-- Responsive design using Bootstrap's grid system
-- Modern UI components like navbar, cards, and buttons
-- Fully styled using CSS and Bootstrap utilities
-- Cross-browser compatibility
-
-## 📸 Screenshot
-
-![Project Screenshot](screenshot.png)
-
-## 📝 Installation
-
-To view or modify the project on your local machine:
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/challenge1-html-css-bootstrap.git
-    ```
-
-2. Open `index.html` in your browser:
-    ```bash
-    open index.html
-    ```
-
-## 🤝 Contribution
-
-Feel free to fork this repository, create a pull request, or suggest improvements through issues.
-
----
-
-Created as part of the **FSW-2 Bootcamp Challenge** at [Your Organization](https://yourorganization.com)
+## 🎨 Key Features -
+- **Responsive Design**: Using Bootstrap to ensure a good display on desktop, tablet, and mobile devices.
+- **Navigation**: Easily accessible and responsive navbar.
+- **Static sections**: Consists of hero, features, testimonials, FAQs and an attractive footer.
+- **Use of Provided Design**: Implement visual designs according to mockups from Binar Academy.
